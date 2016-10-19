@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f5a623</color>
+    <color name="colorPrimaryDark">#f5a623</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="vcolorOrange">#f5a623</color>
+    <color name="vcolorBlackBtn">#4b4547</color>
+    <color name="vcolorBlackFont">#383838</color>
+
+    <color name="vcolorGrey">#80ffffff</color>
+    <color name="vcolorGreyTwo">#a2a2a2</color>
+    <color name="vcolorRed">#ec3737</color>
+    <color name="vcolorOrange1">#ff7542</color>
+</resources>

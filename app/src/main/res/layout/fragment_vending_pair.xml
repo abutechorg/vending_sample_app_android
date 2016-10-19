@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vcolorOrange">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:src="@drawable/ic_drink" />
+
+            <TextView
+                android:id="@+id/ven_mach_hdr"
+                style="@style/VenDetailHdr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Fruit Juice" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mach_name_details"
+            style="@style/VenDetailSub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Fruit juices, soft drinks and  tea drinks are available for sale" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:src="@drawable/ic_location" />
+
+            <TextView
+                android:id="@+id/ven_mach_loc"
+                style="@style/VenDetailHdr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="0.8km" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mach_loc_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="#01-00 Chander Fashion Center 3111 W Chandler Blvd " />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_pair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/vend_pair_btn"
+        android:text="@string/vending_pair_btn_txt"
+        android:textColor="@color/white" />
+</FrameLayout>

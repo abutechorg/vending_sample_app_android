@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Location Settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:disableDependentsState="false"
+            android:key="@string/pref_key_toggle_location"
+            android:title="@string/pref_title_toggle_location" />
+        <EditTextPreference
+            android:defaultValue="36.121200"
+            android:dependency="@string/pref_key_toggle_location"
+            android:key="@string/pref_key_latitude"
+            android:title="@string/pref_title_latitude" />
+        <EditTextPreference
+            android:defaultValue="-115.169637"
+            android:dependency="@string/pref_key_toggle_location"
+            android:key="@string/pref_key_longitude"
+            android:title="@string/pref_title_longitude" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Partner Server">
+        <ListPreference
+            android:entries="@array/pref_entries_partner_server"
+            android:entryValues="@array/pref_values_partner_server"
+            android:key="@string/pref_key_partner_server"
+            android:title="@string/pref_title_partner_server" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Vending Controller Type">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_vending_controller_type"
+            android:title="@string/pref_title_vending_controller_type" />
+
+        <ListPreference
+            android:dependency="@string/pref_key_vending_controller_type"
+            android:entries="@array/pref_entries_mock_error"
+            android:entryValues="@array/pref_values_mock_error"
+            android:key="@string/pref_key_vending_controller_mock_error"
+            android:title="@string/pref_title_vending_controller_mock_error" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

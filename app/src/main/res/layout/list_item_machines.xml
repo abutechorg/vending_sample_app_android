@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="30dp">
+
+    <ImageView
+        android:id="@+id/imgItem"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:background="@color/section_item_default_image_background_color"
+        android:contentDescription="@null"
+
+        android:src="@drawable/vend_machine"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="UnusedAttribute"
+        tools:text="Header Test" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:src="@drawable/ic_location" />
+
+
+            <TextView
+                android:id="@+id/tvSubHeader1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/section_item_default_subheader1_text_color"
+                android:textSize="13sp"
+                tools:ignore="UnusedAttribute"
+                tools:text="SubHeader Test" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

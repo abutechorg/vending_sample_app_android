@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">AnyDrink</string>
+
+    <string name="menu_settings">Settings</string>
+
+    <string name="pref_base_url">BASE_URL</string>
+    <string name="pref_account_id_key">EMAIL</string>
+    <string name="pref_card_id_key">CARD_ID</string>
+    <string name="pref_user_country">USER_COUNTRY</string>
+    <string name="pref_user_access_token">USER_ACCESS_TOKEN</string>
+
+    <string name="label_login_user_name">User Name</string>
+    <string name="label_login_user_pwd">Password</string>
+    <string name="label_login_login_btn">Login</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_key_partner_server">partner_server</string>
+    <string name="pref_title_partner_server">Partner Server</string>
+
+    <string-array name="pref_entries_partner_server">
+        <item>Money 20/20 Hackathon</item>
+    </string-array>
+
+    <string-array name="pref_values_partner_server">
+        <item>http://52.77.250.159/vending-partner-service/</item>
+    </string-array>
+
+    <string name="pref_values_partner_server_default">http://52.77.250.159/vending-partner-service/</string>
+
+    <string-array name="pref_entries_mock_error">
+        <item>None</item>
+        <item>Scanning Fail</item>
+        <item>Connecting Fail</item>
+        <item>Vending Fail</item>
+    </string-array>
+
+    <string-array name="pref_values_mock_error">
+        <item></item>
+        <item>MOCK_SCANNING_FAILURE</item>
+        <item>MOCK_CONNECTED_FAILURE</item>
+        <item>MOCK_VENDING_FAILURE</item>
+    </string-array>
+
+    <string name="pref_key_partner_server_custom_host">partner_server_custom_host</string>
+    <string name="pref_title_partner_server_custom_host">Partner Server Host</string>
+
+    <string name="pref_key_partner_server_custom_context">partner_server_custom_context</string>
+    <string name="pref_title_partner_server_custom_context">Context</string>
+
+    <string name="pref_key_partner_server_custom_secure">partner_server_custom_secure</string>
+    <string name="pref_title_partner_server_custom_secure">Secure?</string>
+
+    <string name="pref_key_vending_controller_type">vend_controller_mock</string>
+    <string name="pref_title_vending_controller_type">Mock Vending Controller?</string>
+
+    <string name="pref_key_vending_controller_mock_error">vend_controller_mock_error</string>
+    <string name="pref_title_vending_controller_mock_error">Mock Error</string>
+
+
+    <string name="pref_key_toggle_location">toggle_location</string>
+    <string name="pref_title_toggle_location">Manual Location</string>
+
+    <string name="pref_key_latitude">latitude</string>
+    <string name="pref_title_latitude">Latitude</string>
+
+    <string name="pref_key_longitude">longitude</string>
+    <string name="pref_title_longitude">Longitude</string>
+
+    <string name="pref_title_user_name">User Email</string>
+    <string name="pref_description_user_name">User Email</string>
+
+    <string name="service_vending_name">Vending Service</string>
+
+    <string name="vending_machine_not_available">The vending machine is not available</string>
+    <string name="vending_data_not_available">Vending data not available</string>
+    <string name="vending_failed">Vending failed. You have not been charged. Please try again.</string>
+    <string name="vending_machine_not_located">Could not locate vending machine</string>
+    <string name="vending_cancelled">Machine cancelled transaction. You have not been charged</string>
+    <string name="vending_connection_timed_out">Your connection to the vending machine has timed out. Please try again.</string>
+    <string name="vending_approval_failed">Transaction approval failed. You have been disconnected from the vending machine. Please try again</string>
+    <string name="vending_disconnected">You have been disconnected from the vending machine. Please try again</string>
+    <string name="bluetooth_not_supported">The platform doesn\'t support Bluetooth Low Energy</string>
+    <string name="bluetooth_not_enabled">Bluetooth not enabled</string>
+    <string name="vending_already_in_transaction">Vending is already in transaction</string>
+    <string name="vending_text_connecting">CONNECTING</string>
+    <string name="vending_text_connecting_sub">Connect to the vending machine and we will help you make your purchase.\n\n Please make sure bluetooth is enabled on your device</string>
+    <string name="vending_text_credit">MAKE YOUR SELECTION</string>
+    <string name="vending_text_credit_sub">Make your selection on the machine and your default payment card will be charged.</string>
+
+    <string name="vending_pair_btn_txt">Pair with it</string>
+    <string name="vending_pair_btn_txt_again">Pair with it again</string>
+    <string name="vending_pairing_txt">Pairing with the vending machine...</string>
+    <string name="vending_pair_fail_txt">Pair Failed!</string>
+    <string name="vending_selection_txt">Pick the item you want in vending machine by pressing its number</string>
+    <string name="vending_authrequest_txt">Authorizing your payment Info…</string>
+    <string name="vending_payment_txt">Placing payment...</string>
+
+
+</resources>
+

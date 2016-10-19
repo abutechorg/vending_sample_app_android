@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="VenHdrText">
+        <item name="android:color">@color/colorBlack</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="VenPairBtn" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RcptPriceHdr">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RcptPriceDtl">
+        <item name="android:textColor">@color/vcolorGreyTwo</item>
+
+    </style>
+
+    <style name="VenDetailHdr">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="VenDetailSub">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
