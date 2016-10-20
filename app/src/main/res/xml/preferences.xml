@@ -24,7 +24,8 @@
             android:entries="@array/pref_entries_partner_server"
             android:entryValues="@array/pref_values_partner_server"
             android:key="@string/pref_key_partner_server"
-            android:title="@string/pref_title_partner_server" />
+            android:title="@string/pref_title_partner_server"
+            android:defaultValue="@string/pref_values_partner_server_default"/>
 
     </PreferenceCategory>
 
