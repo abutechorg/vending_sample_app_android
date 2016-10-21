@@ -62,7 +62,7 @@ public class ReceiptActivity extends AppCompatActivity {
         String productName = intent.getStringExtra(INTENT_PRODUCT_NAME);
         String productMachine = intent.getStringExtra(INTENT_PRODUCT_VENDING);
 
-        String productPriceFmt = String.format("SGD %.2f", productPrice);
+        String productPriceFmt = String.format("USD %.2f", productPrice);
         String productDateAndTime = new SimpleDateFormat("E , d MMM hh:mm").format(new Date());
         price_hdr.setText(productPriceFmt);
         price_detail.setText(productDateAndTime + "\n" + productMachine);
